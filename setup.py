@@ -11,12 +11,12 @@ print("Using version " + version)
 setuptools.setup(
     name="frigidaire",
     version=version,
-    author="Brian Marks",
+    author="Mario Urquilla",
     description="Python API for the Frigidaire 2.0 App",
     license="MIT",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/bm1549/frigidaire",
+    url="https://github.com/kriodoxis/frigidaire",
     packages=setuptools.find_packages(),
     install_requires=[
         "certifi>=2020.12.5",
